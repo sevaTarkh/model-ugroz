@@ -15,10 +15,10 @@
 @import url(../blocks/footer/footer_author.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/footer__social-icon.css);
-@import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__columns/footer__column-heading.css);
-@import url(../blocks/footer/__columns/footer__column-link.css);
-@import url(../blocks/footer/__columns/footer__column-links.css);
-@import url(../blocks/footer/__columns/footer__column_content_copyright.css);
-@import url(../blocks/footer/__columns/footer__column_content_info.css);
-@import url(../blocks/footer/__columns/footer__column_content_social.css);
+@import url(../blocks/footer/footer__columns.css);
+@import url(../blocks/footer/footer__column-heading.css);
+@import url(../blocks/footer/footer__column-link.css);
+@import url(../blocks/footer/footer__column-links.css);
+@import url(../blocks/footer/footer__column_content_copyright.css);
+@import url(../blocks/footer/footer__column_content_info.css);
+@import url(../blocks/footer/footer__column_content_social.css);
