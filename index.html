@@ -10,19 +10,20 @@
     <div class="page">
         <header class="header">
             <img class="header_logo" src="./images/logo-gubka.webp">
-            <h1 class="header_title">Построение модели угроз</h1>
-            <div class="header_navigation"> 
-                <p class="header_text">Контакты</p>
-                <p class="header_text">Документация</p>
-                <p class="header_text">О самом главном</p>
-            </div>
+            <h1 class="header_title">Модель угроз безопасности информации</h1>
+            <nav class="header_navigation"> 
+                <a class="header_text" href="#contacts">Контакты</a>
+                <a class="header_text" href="#doc">Документация</a>
+                <a class="header_text">О самом главном</a>
+            </nav>
         </header>
         <main class="content">
             <section class="intro">
+                <div class="intro_content">
                 <h2 class="intro_title">Что такое модель угроз?</h2>
                 <p class="intro_text">
                     Модель угроз (безопасности информации) — это физическое, математическое, описательное представление 
-                    свойств или характеристик угроз безопасности информации.Угроза безопасности информации — это совокупность 
+                    свойств или характеристик угроз безопасности информации. Угроза безопасности информации — это совокупность 
                     условий и факторов, создающих потенциальную или реально существующую опасность нарушения безопасности информации.
                 </p>
                 <p class="intro_text">
@@ -33,6 +34,99 @@
                     Соответственно, модель угроз — это документ, назначение которого— определить угрозы, актуальные для конкретной 
                     системы. Только по факту наличия у организации подобного документа законодательные требования по моделированию будут выполнены.
                 </p>
+            </div>
+            <img class="intro_image" src="./images/danger.png">
+            </section>
+            <section class="process">
+                <h2 class="process_title">Процесс разработки модели угроз</h2>
+                <div class="intro_text">
+                    Содержимое модели угроз полностью описано новой методикой оценки ФСТЭК, выпущенной 5 февраля 2021, она пришла 
+                    на смену полностью устаревшей базовой модели угроз 2008 года. Новая методика диктует следующие требования к 
+                    содержанию модели:
+                    <li class="process_text">определить все последствия, которые могут возникнуть в случае использования угроз</li>
+                    <li class="process_text">определить все возможные объекты для атак, перечислить функционирующие в ИС системы и сети, каналы связи</li>
+                    <li class="process_text">оценить возможности вероятных злоумышленников, иными словами – определить источники атак</li>
+                    <li class="process_text">оценить способы атак, вероятные для исследуемой системы</li>
+                    <li class="process_text">оценить возможности по выполнению атак и определить актуальность угроз</li>
+                    <li class="process_text">оценить вероятные сценарии атак в Ваших сетях</li>
+                </div>
+                <div class="intro_text">
+                    Это обобщённое наполнение реальной модели угроз, но всё же дословно следовать этому списку не следует.
+                     При разработке собственного документа можно и нужно опираться на приложение 3 новой методики ФСТЭК, на 
+                     его основе можно сразу составить оглавление: 
+                    <li class="process_text">Введение</li>
+                    <li class="process_text">Описание систем и сетей</li>
+                    <li class="process_text">Возможные последствия</li>
+                    <li class="process_text">Возможные объекты воздействия</li>
+                    <li class="process_text">Источники</li>
+                    <li class="process_text">Способы</li>
+                    <li class="process_text">Актуальные угрозы</li>
+                </div>
+            </section>
+            <section class="documents" id="doc">
+                <div class="documents_content">
+                <h2 class="documents_title">Обзор нормативных документов, необходимых для разработки модели угроз</h2>
+                <a href='https://docs.cntd.ru/document/901990051' class="document_text" target="_blank" >1. Федеральный закон от 27 июля 2006 года № 149-ФЗ «Об информации, информационных технологиях и защите информации»</a>
+                <a href='https://fstec.ru/en/component/attachments/download/2919' class="document_text" target="_blank">2. «Методический документ. Методика оценки угроз безопасности информации» (утв. ФСТЭК России 05.02.2021)</a>
+                <a href='https://fstec.ru/component/attachments/download/1906' class="document_text" target="_blank">3. Федеральный закон от 26 июля 2017 года № 187-ФЗ «О безопасности критической информационной инфраструктуры Российской Федерации»</a>
+                <a href='https://docs.cntd.ru/document/901990046' class="document_text" target="_blank">4. Федеральный закон от 27 июля 2006 года № 152-ФЗ «О персональных данных»</a>
+            </div>
+            <a href='https://docs.cntd.ru/document/901990051' target="_blank"><img src="./images/08090946a9_1.jpg" class="documents_image"></a>
+            </section>
+            <section class="video">
+                <h2 class="section-title">Видео нa youtube</h2>
+                <div class="video__iframes">
+                   <iframe  class="video__iframe" src="https://www.youtube.com/embed/R4a2_k_YVwc"  allowfullscreen></iframe>
+                   <iframe  class="video__iframe" src="https://www.youtube.com/embed/wQiY7_T1dso"  allowfullscreen></iframe>
+                </div>
+             </section>
+            <section class="questions">
+                <h2 class="qestion_title">Опрос</h2>
+                <div id="test" class="form">
+                    <div class="question">
+                        <h3>вопрос 1?</h3>
+                        <label>   
+                            1. вариант 1
+                        </label>
+                        <label>
+                            2. вариант 2
+                        </label>
+                        <label>
+                            3. вариант 3
+                        </label>
+                        <input  name="1" class="input" data-right="1">
+                    </div>
+                    <div class="question">
+                        <h3>вопрос 2?</h3>
+                        <label>
+                            1. вариант 1
+                        </label>
+                        <label>
+                            2. вариант 2
+                        </label>
+                        <label>
+                            3. вариант 3
+                        </label>
+                        <input  name="2" class="input" data-right="2">
+                    </div>
+                    <div class="question">
+                        <h3>вопрос 3?</h3>
+                        
+                        <label>
+                            1. вариант 1
+                        </label>
+                        <label>
+                            2. вариант 2
+                        </label>
+                        <label>
+                            3. вариант 3
+                        </label>
+                        <input  name="2" class="input" data-right="3">
+                    </div>
+        
+                <button class="button" type="submit">Проверить ответы</button>
+                <button class="button_reset" type="submit">Заново</button>
+                </div>
             </section>
         </main>
         <footer class="footer">
@@ -41,22 +135,14 @@
                     <img class="header_logo" src="./images/logo-gubka.webp">
                     <h2 class="footer_author">&copy; Всеволод Тарханов</h2>
                 </div>
-                <!--<div class="footer__column footer__column_content_info">
-                    <h3 class="footer__column-heading">О Практике</h3>
-                    <nav class="footer__column-links">
-                       <a href="#" class="footer__column-link">Главная</a>
-                       <a href="#" class="footer__column-link">Концепции</a>
-                       <a href="#" class="footer__column-link">Наставники</a>
-                    </nav>
-                 </div>-->
-                <div class="footer__column footer__column_content_social">
+                <div class="footer__column footer__column_content_social" id="contacts">
                     <h3 class="footer__column-heading">Соцсети</h3>
                     <nav class="footer__column-links">
                        <a href="#" class="footer__column-link">
                         <img src='./images/facebook_color_white.svg' alt="иконка фейсбука" class="footer__social-icon">Telegram
                       </a>
                        <a href="https://vk.com/tarkhanov_0" class="footer__column-link">
-                        <img src='./images/vk_color_white.svg' alt="иконка вк" class="footer__social-icon">Вконтакте
+                        <img src='./images/vk_color_white.svg' alt="иконка вк" class="footer__social-icon">Вк
                       </a>
                        <a href="#" class="footer__column-link">
                         <img src='./images/instagram_color_white.svg' alt="иконка инстаграмма" class="footer__social-icon">Instagram
@@ -67,4 +153,5 @@
         </footer>
     </div>
    </body>
+   <script src="./index.js"></script>
 </html>

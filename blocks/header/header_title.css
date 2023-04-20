@@ -5,3 +5,16 @@
     height: 20px;
     font-size: 30px;
 }
+
+
+@media screen and (max-width: 853px){
+    .header_title{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 765px){
+    .header_title{
+        font-size: 20px;
+    }
+}
