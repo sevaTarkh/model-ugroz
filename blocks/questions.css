@@ -6,9 +6,16 @@
 
 
 label{
-    font-size: 24px;
+    font-size: 18px;
 }
 
 h3{
-    font-size: 36px;
+    font-size: 24px;
+}
+
+.qestion_title{
+    font-size: 48px;
+}
+.question_remark{
+    font-size: 14px;
 }

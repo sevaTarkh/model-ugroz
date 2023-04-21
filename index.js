@@ -15,12 +15,12 @@ button.addEventListener('click', function() {
             input.classList.add('incorrect');
         }
     }
-    });
+});
 
 reset.addEventListener('click', function() {
     for (let input of inputs) {
             input.classList.remove('correct'); // удаление класса
             input.classList.remove('incorrect');
             input.value = '';
-     } // удаление класса
+    } // удаление класса
 });

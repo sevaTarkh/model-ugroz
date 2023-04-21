@@ -3,3 +3,11 @@
     width: 200px;
     margin: auto;
 }
+
+@media screen and (max-width: 600px){
+    .intro_image{
+        height: 100px;
+        width: 100px;
+
+    }
+}
